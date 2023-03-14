@@ -18,7 +18,7 @@ const AppRouter = () => {
         <Toaster position="top-left" />
         <Navbar />
         <Routes>
-          <Route path="/" element={<PrivateRouter />}>
+          <Route path="/redux-example" element={<PrivateRouter />}>
             <Route path="" element={<Home />} />
           </Route>
           <Route path="/login" element={<Login />} />
